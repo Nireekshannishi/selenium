@@ -12,6 +12,7 @@ public static void main(String[] args)
   //OPEN BROWSER
 FirefoxDriver driver = new FirefoxDriver();
   //ENTER URL
+	System.out.println("google");
 driver.get("https://www.google.com/");
 driver.close();
 }
